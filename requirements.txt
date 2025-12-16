@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec 16 13:02:07 2025
 
-@author: U
-"""
 
 streamlit
 pandas
