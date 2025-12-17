@@ -16,7 +16,7 @@ with open('SVM_model_GROUP_6.pkl', 'rb') as file:
 st.title("25rp19408")
 
 # User input
-st.write("Enter patient measurements:")
+st.write("Enter patient measurementsif malignant the patient has cancer if you get begnin he or she has no cancer:")
 
 radius_mean = st.number_input("Radius Mean")
 texture_mean = st.number_input("Texture Mean")
