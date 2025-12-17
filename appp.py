@@ -11,7 +11,7 @@ with open('SVM_model_GROUP_6.pkl', 'rb') as file:
 st.title("BREAST CANCER ")
 
 # User input
-st.write("Enter patient measurements:")
+st.write("Enter patient measurements if malignant the patient has cancer if you get begnin he or she has no cancer:")
 
 radius_mean = st.number_input("Radius Mean")
 texture_mean = st.number_input("Texture Mean")
@@ -30,5 +30,6 @@ if st.button("Predict"):
 
 #cd C:\Users\U\Desktop\breastcancer
 #dir to list
+
 
 
