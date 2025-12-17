@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec 16 12:21:25 2025
 
-@author: U
-"""
 
 import streamlit as st
 import pickle
@@ -35,4 +30,5 @@ if st.button("Predict"):
 
 #cd C:\Users\U\Desktop\breastcancer
 #dir to list
+
 
